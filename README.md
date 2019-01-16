@@ -51,7 +51,7 @@ Logistic regression is a generalized linear model (GLM). We would like our class
 <img src="images/6.png"/ width="700px"/>
  <p>
 
-g(z) is called the **Sigmoid/Logistic Function**. 
+g(z) is called the **Sigmoid/Logistic Function** and is complex non-linear function. 
 
 And As z goes to minus infinity, g(z) approaches zero. And as g(z) approaches infinity, g(z) approaches one. And so because g(z) upwards values are between zero and one, we also have that h(x) must be between 0 and 1.
 
@@ -64,7 +64,7 @@ Example, we have a single feature x_1= Tumor Size and by convention x_0 is taken
 So,
   <img src="images/8.png"/>
   
->***logistic regression is a regression algorithm and it does predict a continuous outcome: the probability of an event. The fact that we use it as a binary classifier is due to the interpretation of the outcome.***
+> ***logistic regression is a regression algorithm and it does predict a continuous outcome: the probability of an event. The fact that we use it as a binary classifier is due to the interpretation of the outcome.***
 
 ### Decision Boundary
 The decision boundary is the line that separates the area where y = 0 and where y = 1. It is created by our hypothesis function.
@@ -73,7 +73,7 @@ In order to get our discrete 0 or 1 classification, we can translate the output 
 
   <img src="images/9.png"/>
   
-  >***Whenever the hypothesis outputs that the probability of y being one is greater than or equal to 0.5, so this means that if there is more likely to be y equals 1 than y equals 0, then let's predict y equals 1.***
+  > ***Whenever the hypothesis outputs that the probability of y being one is greater than or equal to 0.5, so this means that if there is more likely to be y equals 1 than y equals 0, then let's predict y equals 1.***
   
   <img src="images/11.png"/>
   
@@ -85,8 +85,7 @@ Example,
   <img src="images/13.png" width="500px"/>
 
 ### COST FUNCTION
->***We cannot use the same cost function that we use for linear regression because the Logistic Function will cause the output to be wavy, causing many local optima,i.e., it will not be a convex function.
-***
+>***We cannot use the same cost function that we use for linear regression because for parameter theta, the Logistic Function will cause the output to be wavy, causing many local optima,i.e., it will not be a convex function.***
 
 The cost function for logistic regression looks like:
   
@@ -101,4 +100,16 @@ The cost function for logistic regression looks like:
 
   <img src="images/17.png"/>
 
-
+### Simplified Cost Function and Gradient Descent
+The abve cost function is simplified as follows:
+<p float="left">
+     <img src="images/18.png" width="500px"/>
+  <img src="images/19.png" width="500px"/>
+     </p>
+  <img src="images/20.png" />
+      
+  <p float="left">
+     <img src="images/21.png" width="500px"/>
+  <img src="images/22.png" width="500px"/>
+     </p>
+ 
