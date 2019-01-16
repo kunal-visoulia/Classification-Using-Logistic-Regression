@@ -1,5 +1,6 @@
 # Classification-Using-Logistic-Regression
 
+## DATASET
 The objective of the dataset is to diagnostically predict whether or not a patient has diabetes, based on certain diagnostic measurements included in the dataset.All patients here are females at least 21 years old of Pima Indian heritage.Predictor variables includes the number of pregnancies the patient has had, their BMI, insulin level, age, and so on.
 
 Here, I used **Logistic Regression** for solving this clasification problem and measured its various performance attributes on the given dataset.
@@ -93,23 +94,31 @@ The cost function for logistic regression looks like:
 
 >***Writing the cost function in this way guarantees that J(θ) is convex for logistic regression.***
 
+>***But why this logarithmic cost function?***
+
+>This function comes from The Priciple of Maximum Likelihood Estimation from statistics
+
 <p float="left">
-<img src="images/15.png"/>
-<img src="images/16.png"/ />
- <p>
+     <img src="images/15.png" width="400px"/>
+     <img src="images/16.png" width="400px" height="281px"/>
+ </p>
 
   <img src="images/17.png"/>
 
-### Simplified Cost Function and Gradient Descent
-The abve cost function is simplified as follows:
-<p float="left">
-     <img src="images/18.png" width="500px"/>
-  <img src="images/19.png" width="500px"/>
-     </p>
+### Simplified Cost Function 
+The above cost function is simplified as follows:
+
+  <img src="images/18.png" />
+  <img src="images/19.png" />
+    
+A vectorized implementation is: 
+     
   <img src="images/20.png" />
       
-  <p float="left">
-     <img src="images/21.png" width="500px"/>
-  <img src="images/22.png" width="500px"/>
-     </p>
+### Gradient Descent for Logistic Regression 
+simultaneously update all values in theta
+
+  <img src="images/21.png" />
+  <img src="images/22.png" />
+     
  
