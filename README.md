@@ -80,7 +80,13 @@ In order to get our discrete 0 or 1 classification, we can translate the output 
   <img src="images/10.png"/>
 
 Example,
+
   <img src="images/12.png" width="500px"/>
+  <img src="images/13.png" width="500px"/>
+
+### COST FUNCTION
+
+
 
 
 
