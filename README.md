@@ -33,7 +33,7 @@ what we can do is **set a threshold value for classification**:
   
 But, if there comes a new training example to the far right(_the blue arrow_), the hypothesis function will change giving(_blue line_):
 
-<img src="images/4.png" width="300px"/>
+<img src="images/4.png" width="500px"/>
 
 So, if we have the same threshold of 0.5, this will lead to a lot of wrong predictions.
 
@@ -48,7 +48,7 @@ Logistic regression is a generalized linear model (GLM). We would like our class
 
 <p float="left">
 <img src="images/5.png"/>
-<img src="images/6.png"/>
+<img src="images/6.png"/ width="700px"/>
  <p>
 
 g(z) is called the **Sigmoid/Logistic Function**. 
@@ -66,7 +66,7 @@ So,
   
 >***logistic regression is a regression algorithm and it does predict a continuous outcome: the probability of an event. The fact that we use it as a binary classifier is due to the interpretation of the outcome.***
 
-### Decioson Boundary
+### Decision Boundary
 The decision boundary is the line that separates the area where y = 0 and where y = 1. It is created by our hypothesis function.
 
 In order to get our discrete 0 or 1 classification, we can translate the output of the hypothesis function as follows:
@@ -85,8 +85,20 @@ Example,
   <img src="images/13.png" width="500px"/>
 
 ### COST FUNCTION
+>***We cannot use the same cost function that we use for linear regression because the Logistic Function will cause the output to be wavy, causing many local optima,i.e., it will not be a convex function.
+***
 
+The cost function for logistic regression looks like:
+  
+  <img src="images/14.png"/>
 
+>***Writing the cost function in this way guarantees that J(θ) is convex for logistic regression.***
 
+<p float="left">
+<img src="images/15.png"/>
+<img src="images/16.png"/ />
+ <p>
+
+  <img src="images/17.png"/>
 
 
