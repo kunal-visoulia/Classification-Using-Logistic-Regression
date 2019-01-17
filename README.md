@@ -9,7 +9,7 @@ Here, I used **Logistic Regression** for solving this clasification problem and 
 Follwing was the confusion matrix:
 
 <img src="images/24.png"/>
-<img src="images/25.png"/>
+<img src="images/26.png"/>
 
 Following performance metrics were observed on the dataset by Logistic Regression:
 ```
