@@ -32,7 +32,7 @@ Here, we have only two classes(0=> doesn't have diabetes; 1=> has diabetes). In 
 - [Simplified Cost function](#simplified-cost-function)
 - [Gradient Descent for Logistic Regression](#gradient-descent-for-logistic-regression) 
 - [Multiclass Classification](#multiclass-classification)
-- [Problem of Overfitting](#problem-of-overfitting)
+- [Problem of Overfitting](#the-problem-of-overfitting)
 
 ### Problems with using Linear Regression for Classification 
 Let's say we want to classify cancer cell as malignant or benign using Linear Regression.
@@ -70,7 +70,7 @@ g(z) is called the **Sigmoid/Logistic Function** and is complex non-linear funct
 And As z goes to minus infinity, g(z) approaches zero. And as g(z) approaches infinity, g(z) approaches one. And so because g(z) upwards values are between zero and one, we also have that h(x) must be between 0 and 1.
 
 ### Interpretation of Hypothesis Output
-Here, ***h(x) gives the estimated probability that y=1 on input x ***
+Here, ***h(x) gives the estimated probability that y=1 on input x***
 
 Example, we have a single feature x_1= Tumor Size and by convention x_0 is taken as 1.
 <img src="images/7.png" width="330px"/>
