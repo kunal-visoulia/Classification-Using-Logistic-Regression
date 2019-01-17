@@ -126,3 +126,17 @@ One-vs-all: y = {0,1...n}, we divide our problem into n+1 (+1 because the index 
   <img src="images/23.png" />
 
 We are basically choosing one class and then lumping all the others into a single second class. We do this repeatedly, applying binary logistic regression to each case, and then use the hypothesis that returned the highest value as our prediction.
+
+## The Problem of Overfitting
+Both Linear regression and Logistic Regression are susceptible to Overfitting(High variance) and Underfitting(High bias).
+
+There are two main options to address the issue of overfitting:
+
+1. Reduce the number of features:
+- Manually select which features to keep.
+- Use a model selection algorithm (studied later in the course).
+
+2) Regularization
+- Keep all the features, but reduce the magnitude of parameters theta_j
+- Regularization works well when we have a lot of slightly useful features.
+
