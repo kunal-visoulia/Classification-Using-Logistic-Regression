@@ -24,15 +24,15 @@ Recall:    0.5957446808510638
 
 Here, we have only two classes(0=> doesn't have diabetes; 1=> has diabetes). In multiclass problems, we have multiple classes like y=0,1,2,3, etc .
 
-- Problems with using Linear Regression for Classification(#problems-with-using-linear-regression-for-classification) 
-- Logistic Regression(#logistic-regression)
-- Interpretation of Hypothesis Output(#interpretation-of-hypothesis-output)
-- Decision Boundary(#decision-boundary)
-- Cost Function for Logistic Regression(#cost-function)
-- Simplified Cost function(#simplified-cost-function)
-- Gradient Descent for Logistic Regression(#gradient-descent-for-logistic-regression) 
-- Multiclass Classification(#multiclass-classification)
-- Problem of Overfitting(#problem-of-overfitting)
+- [Problems with using Linear Regression for Classification](#problems-with-using-linear-regression-for-classification) 
+- [Logistic Regression](#logistic-regression)
+- [Interpretation of Hypothesis Output](#interpretation-of-hypothesis-output)
+- [Decision Boundary](#decision-boundary)
+- [Cost Function for Logistic Regression](#cost-function)
+- [Simplified Cost function](#simplified-cost-function)
+- [Gradient Descent for Logistic Regression](#gradient-descent-for-logistic-regression) 
+- [Multiclass Classification](#multiclass-classification)
+- [Problem of Overfitting](#problem-of-overfitting)
 
 ### Problems with using Linear Regression for Classification 
 Let's say we want to classify cancer cell as malignant or benign using Linear Regression.
