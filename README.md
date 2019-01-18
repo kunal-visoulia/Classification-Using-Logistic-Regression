@@ -149,7 +149,7 @@ There are two main options to address the issue of overfitting:
 - Manually select which features to keep.
 - Use a model selection algorithm (studied later in the course).
 
-2) [Regularization](https://towardsdatascience.com/regularization-in-machine-learning-76441ddcf99a)
+2) [Regularization](https://www.coursera.org/lecture/machine-learning/regularized-linear-regression-QrMXd)
 - Keep all the features, but reduce the magnitude of parameters theta_j
 - Regularization works well when we have a lot of slightly useful features.
 
