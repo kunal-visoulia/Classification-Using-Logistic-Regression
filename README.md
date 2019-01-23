@@ -24,15 +24,15 @@ Recall:    0.5957446808510638
 
 Here, we have only two classes(0=> doesn't have diabetes; 1=> has diabetes). In multiclass problems, we have multiple classes like y=0,1,2,3, etc .
 
-- Problems with using Linear Regression for Classification(#problems-with-using-linear-regression-for-classification) 
-- Logistic Regression(#logistic-regression)
-- Interpretation of Hypothesis Output(#interpretation-of-hypothesis-output)
-- Decision Boundary(#decision-boundary)
-- Cost Function for Logistic Regression(#cost-function)
-- Simplified Cost function(#simplified-cost-function)
-- Gradient Descent for Logistic Regression(#gradient-descent-for-logistic-regression) 
-- Multiclass Classification(#multiclass-classification)
-- Problem of Overfitting(#problem-of-overfitting)
+- [Problems with using Linear Regression for Classification](#problems-with-using-linear-regression-for-classification) 
+- [Logistic Regression](#logistic-regression)
+- [Interpretation of Hypothesis Output](#interpretation-of-hypothesis-output)
+- [Decision Boundary](#decision-boundary)
+- [Cost Function for Logistic Regression](#cost-function)
+- [Simplified Cost function](#simplified-cost-function)
+- [Gradient Descent for Logistic Regression](#gradient-descent-for-logistic-regression) 
+- [Multiclass Classification](#multiclass-classification)
+- [Problem of Overfitting](#the-problem-of-overfitting)
 
 ### Problems with using Linear Regression for Classification 
 Let's say we want to classify cancer cell as malignant or benign using Linear Regression.
@@ -70,7 +70,7 @@ g(z) is called the **Sigmoid/Logistic Function** and is complex non-linear funct
 And As z goes to minus infinity, g(z) approaches zero. And as g(z) approaches infinity, g(z) approaches one. And so because g(z) upwards values are between zero and one, we also have that h(x) must be between 0 and 1.
 
 ### Interpretation of Hypothesis Output
-Here, ***h(x) gives the estimated probability that y=1 on input x ***
+Here, ***h(x) gives the estimated probability that y=1 on input x***
 
 Example, we have a single feature x_1= Tumor Size and by convention x_0 is taken as 1.
 <img src="images/7.png" width="330px"/>
@@ -149,7 +149,7 @@ There are two main options to address the issue of overfitting:
 - Manually select which features to keep.
 - Use a model selection algorithm (studied later in the course).
 
-2) Regularization
+2) [Regularization](https://www.coursera.org/lecture/machine-learning/regularized-linear-regression-QrMXd)
 - Keep all the features, but reduce the magnitude of parameters theta_j
 - Regularization works well when we have a lot of slightly useful features.
 
