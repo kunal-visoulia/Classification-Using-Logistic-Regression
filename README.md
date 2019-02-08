@@ -6,7 +6,7 @@ The objective of the dataset is to diagnostically predict whether or not a patie
 Here, I used **Logistic Regression** for solving this clasification problem and measured its various performance metrics on the given dataset.
 
 ## RESULT
-Follwing was the confusion matrix:
+Following was the confusion matrix:
 
 <img src="images/24.png"/>
 <img src="images/26.png"/>
@@ -147,7 +147,7 @@ There are two main options to address the issue of overfitting:
 
 1. Reduce the number of features:
 - Manually select which features to keep.
-- Use a model selection algorithm (studied later in the course).
+- Use a model selection algorithm.
 
 2) [Regularization](https://www.coursera.org/lecture/machine-learning/regularized-linear-regression-QrMXd)
 - Keep all the features, but reduce the magnitude of parameters theta_j
