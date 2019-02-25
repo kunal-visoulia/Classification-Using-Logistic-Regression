@@ -24,6 +24,8 @@ Recall:    0.5957446808510638
 
 Here, we have only two classes(0=> doesn't have diabetes; 1=> has diabetes). In multiclass problems, we have multiple classes like y=0,1,2,3, etc .
 
+Like linear regression, logistic regression does work better when you remove attributes that are unrelated to the output variable as well as attributes that are very similar (correlated) to each other. Therefore Feature Engineering plays an important role in regards to the performance of Logistic and also Linear Regression. Another advantage of Logistic Regression is that it is incredibly easy to implement and very efficient to train. A disadvantage of it is that we can’t solve non-linear problems with logistic regression since it’s decision surface is linear.
+
 - [Problems with using Linear Regression for Classification](#problems-with-using-linear-regression-for-classification) 
 - [Logistic Regression](#logistic-regression)
 - [Interpretation of Hypothesis Output](#interpretation-of-hypothesis-output)
